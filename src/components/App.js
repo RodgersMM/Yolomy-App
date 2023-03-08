@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Test from './Test';
 import AboutUs from './AboutUs';
 import logo from '../assets/images/logo.png';
+import Footer from './Footer';
 
 function App() {
  return (
@@ -13,8 +14,7 @@ function App() {
     
         <Header />
         <AboutUs />
-        <Navbar />
-        <Test />
+        <Footer />
        
      </div>
      
