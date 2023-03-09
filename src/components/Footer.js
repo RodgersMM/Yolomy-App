@@ -7,6 +7,7 @@ import skype from '../assets/social_icons/skype.png';
 import flickr from '../assets/social_icons/flickr.png';
 import twitter from '../assets/social_icons/twitter.png';
 import pinterest from '../assets/social_icons/pinterest.png';
+import '../styles/footer.css'
 
 function Footer () {
    return (
@@ -65,7 +66,6 @@ function Footer () {
                        </div>
                    </div>
                </div>
-
            </div>
        </React.Fragment>
    )
