@@ -1,14 +1,16 @@
-import React from 'react'
+import React from 'react';
 import Navbar from './Navbar';
 import '../styles/header.css'
 
 function Header() {
    return (
        <React.Fragment>
-             <div className='section-1'>
+      
+       <div className='section-1'>
                <div className="container">
                    <div className="row">
-                       <Navbar />
+                       <Navbar />  {/*Added Navbar component here */}
+                      
                        <div className="col-12">
                            <div className="title d-flex">
                                <div className="justify-content-center align-self-center w-100">
@@ -20,17 +22,22 @@ function Header() {
                                </div> 
                            </div>
                        </div>
+
                        <div className="col-12">
                            <div className="text-center chevron-down">
                                <a href="#products">
                                    <i className="fa fa-chevron-down" aria-hidden="true"></i>
                                </a>
                            </div>
+
                        </div>
+
                    </div>
                </div>
+
            </div>
        </React.Fragment>
    )
 }
+
 export default Header;
